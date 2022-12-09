@@ -8,14 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		845BDB7A2943511200CBF372 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845BDB792943511200CBF372 /* AppDelegate.swift */; };
-		845BDB7C2943511200CBF372 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845BDB7B2943511200CBF372 /* SceneDelegate.swift */; };
-		845BDB7E2943511200CBF372 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845BDB7D2943511200CBF372 /* ViewController.swift */; };
 		845BDB812943511200CBF372 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845BDB7F2943511200CBF372 /* Main.storyboard */; };
 		845BDB832943511500CBF372 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845BDB822943511500CBF372 /* Assets.xcassets */; };
 		845BDB862943511500CBF372 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845BDB842943511500CBF372 /* LaunchScreen.storyboard */; };
 		845BDB912943511600CBF372 /* ProxyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845BDB902943511600CBF372 /* ProxyTests.swift */; };
 		845BDB9B2943511600CBF372 /* ProxyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845BDB9A2943511600CBF372 /* ProxyUITests.swift */; };
 		845BDB9D2943511600CBF372 /* ProxyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845BDB9C2943511600CBF372 /* ProxyUITestsLaunchTests.swift */; };
+		845BDBAF2943516C00CBF372 /* ProxyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845BDBAE2943516C00CBF372 /* ProxyVC.swift */; };
+		845BDBB42943520800CBF372 /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845BDBB32943520800CBF372 /* Subject.swift */; };
+		845BDBB82943524100CBF372 /* RealSubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845BDBB72943524100CBF372 /* RealSubject.swift */; };
+		845BDBBB2943525A00CBF372 /* Proxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845BDBBA2943525A00CBF372 /* Proxy.swift */; };
+		845BDBBD2943526C00CBF372 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845BDBBC2943526C00CBF372 /* Client.swift */; };
+		845BDBC0294352C900CBF372 /* AccessField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845BDBBF294352C900CBF372 /* AccessField.swift */; };
+		845BDBC3294352E200CBF372 /* ProfileService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845BDBC2294352E200CBF372 /* ProfileService.swift */; };
+		845BDBC6294352F900CBF372 /* ProfileProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845BDBC5294352F900CBF372 /* ProfileProxy.swift */; };
+		845BDBC92943531400CBF372 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845BDBC82943531400CBF372 /* Keychain.swift */; };
+		845BDBCE2943533F00CBF372 /* BiometricsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845BDBCD2943533F00CBF372 /* BiometricsService.swift */; };
+		845BDBD12943535E00CBF372 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845BDBD02943535E00CBF372 /* Profile.swift */; };
+		845BDBD32943536B00CBF372 /* BankAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845BDBD22943536B00CBF372 /* BankAccount.swift */; };
+		845BDBD52943537A00CBF372 /* ProfileError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845BDBD42943537A00CBF372 /* ProfileError.swift */; };
+		845BDBD8294353A700CBF372 /* RawRepresentableExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845BDBD7294353A700CBF372 /* RawRepresentableExt.swift */; };
+		845BDBDA294353B900CBF372 /* LocalizedError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845BDBD9294353B900CBF372 /* LocalizedError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +51,6 @@
 /* Begin PBXFileReference section */
 		845BDB762943511200CBF372 /* Proxy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Proxy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		845BDB792943511200CBF372 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		845BDB7B2943511200CBF372 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		845BDB7D2943511200CBF372 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		845BDB802943511200CBF372 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		845BDB822943511500CBF372 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		845BDB852943511500CBF372 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +60,21 @@
 		845BDB962943511600CBF372 /* ProxyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProxyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		845BDB9A2943511600CBF372 /* ProxyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxyUITests.swift; sourceTree = "<group>"; };
 		845BDB9C2943511600CBF372 /* ProxyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		845BDBAE2943516C00CBF372 /* ProxyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxyVC.swift; sourceTree = "<group>"; };
+		845BDBB32943520800CBF372 /* Subject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
+		845BDBB72943524100CBF372 /* RealSubject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealSubject.swift; sourceTree = "<group>"; };
+		845BDBBA2943525A00CBF372 /* Proxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Proxy.swift; sourceTree = "<group>"; };
+		845BDBBC2943526C00CBF372 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		845BDBBF294352C900CBF372 /* AccessField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessField.swift; sourceTree = "<group>"; };
+		845BDBC2294352E200CBF372 /* ProfileService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileService.swift; sourceTree = "<group>"; };
+		845BDBC5294352F900CBF372 /* ProfileProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileProxy.swift; sourceTree = "<group>"; };
+		845BDBC82943531400CBF372 /* Keychain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
+		845BDBCD2943533F00CBF372 /* BiometricsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometricsService.swift; sourceTree = "<group>"; };
+		845BDBD02943535E00CBF372 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		845BDBD22943536B00CBF372 /* BankAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankAccount.swift; sourceTree = "<group>"; };
+		845BDBD42943537A00CBF372 /* ProfileError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileError.swift; sourceTree = "<group>"; };
+		845BDBD7294353A700CBF372 /* RawRepresentableExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RawRepresentableExt.swift; sourceTree = "<group>"; };
+		845BDBD9294353B900CBF372 /* LocalizedError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,11 +126,11 @@
 			isa = PBXGroup;
 			children = (
 				845BDB792943511200CBF372 /* AppDelegate.swift */,
-				845BDB7B2943511200CBF372 /* SceneDelegate.swift */,
-				845BDB7D2943511200CBF372 /* ViewController.swift */,
-				845BDB7F2943511200CBF372 /* Main.storyboard */,
+				845BDBAC2943515100CBF372 /* Example */,
+				845BDBAB2943514B00CBF372 /* Concept */,
+				845BDBAA2943514300CBF372 /* ViewControllers */,
+				845BDBA92943513B00CBF372 /* Storyboards */,
 				845BDB822943511500CBF372 /* Assets.xcassets */,
-				845BDB842943511500CBF372 /* LaunchScreen.storyboard */,
 				845BDB872943511500CBF372 /* Info.plist */,
 			);
 			path = Proxy;
@@ -125,6 +151,147 @@
 				845BDB9C2943511600CBF372 /* ProxyUITestsLaunchTests.swift */,
 			);
 			path = ProxyUITests;
+			sourceTree = "<group>";
+		};
+		845BDBA92943513B00CBF372 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				845BDB7F2943511200CBF372 /* Main.storyboard */,
+				845BDB842943511500CBF372 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		845BDBAA2943514300CBF372 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				845BDBAD2943515800CBF372 /* ProxyVC */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		845BDBAB2943514B00CBF372 /* Concept */ = {
+			isa = PBXGroup;
+			children = (
+				845BDBB0294351EC00CBF372 /* Interface */,
+				845BDBB62943523300CBF372 /* Subject */,
+				845BDBB92943524E00CBF372 /* Proxy */,
+				845BDBB52943522E00CBF372 /* Client */,
+			);
+			path = Concept;
+			sourceTree = "<group>";
+		};
+		845BDBAC2943515100CBF372 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				845BDBCA2943532500CBF372 /* Service */,
+				845BDBC72943530300CBF372 /* Keychain */,
+				845BDBC1294352D500CBF372 /* Interface */,
+				845BDBC4294352ED00CBF372 /* Proxy */,
+				845BDBBE294352BF00CBF372 /* Enums */,
+				845BDBCF2943534F00CBF372 /* Structures */,
+				845BDBD62943539600CBF372 /* Extensions */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		845BDBAD2943515800CBF372 /* ProxyVC */ = {
+			isa = PBXGroup;
+			children = (
+				845BDBAE2943516C00CBF372 /* ProxyVC.swift */,
+			);
+			path = ProxyVC;
+			sourceTree = "<group>";
+		};
+		845BDBB0294351EC00CBF372 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				845BDBB32943520800CBF372 /* Subject.swift */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		845BDBB52943522E00CBF372 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				845BDBBC2943526C00CBF372 /* Client.swift */,
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
+		845BDBB62943523300CBF372 /* Subject */ = {
+			isa = PBXGroup;
+			children = (
+				845BDBB72943524100CBF372 /* RealSubject.swift */,
+			);
+			path = Subject;
+			sourceTree = "<group>";
+		};
+		845BDBB92943524E00CBF372 /* Proxy */ = {
+			isa = PBXGroup;
+			children = (
+				845BDBBA2943525A00CBF372 /* Proxy.swift */,
+			);
+			path = Proxy;
+			sourceTree = "<group>";
+		};
+		845BDBBE294352BF00CBF372 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				845BDBBF294352C900CBF372 /* AccessField.swift */,
+				845BDBD42943537A00CBF372 /* ProfileError.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		845BDBC1294352D500CBF372 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				845BDBC2294352E200CBF372 /* ProfileService.swift */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		845BDBC4294352ED00CBF372 /* Proxy */ = {
+			isa = PBXGroup;
+			children = (
+				845BDBC5294352F900CBF372 /* ProfileProxy.swift */,
+			);
+			path = Proxy;
+			sourceTree = "<group>";
+		};
+		845BDBC72943530300CBF372 /* Keychain */ = {
+			isa = PBXGroup;
+			children = (
+				845BDBC82943531400CBF372 /* Keychain.swift */,
+			);
+			path = Keychain;
+			sourceTree = "<group>";
+		};
+		845BDBCA2943532500CBF372 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				845BDBCD2943533F00CBF372 /* BiometricsService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		845BDBCF2943534F00CBF372 /* Structures */ = {
+			isa = PBXGroup;
+			children = (
+				845BDBD02943535E00CBF372 /* Profile.swift */,
+				845BDBD22943536B00CBF372 /* BankAccount.swift */,
+			);
+			path = Structures;
+			sourceTree = "<group>";
+		};
+		845BDBD62943539600CBF372 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				845BDBD9294353B900CBF372 /* LocalizedError.swift */,
+				845BDBD7294353A700CBF372 /* RawRepresentableExt.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +425,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				845BDB7E2943511200CBF372 /* ViewController.swift in Sources */,
+				845BDBDA294353B900CBF372 /* LocalizedError.swift in Sources */,
+				845BDBB82943524100CBF372 /* RealSubject.swift in Sources */,
+				845BDBD12943535E00CBF372 /* Profile.swift in Sources */,
+				845BDBC3294352E200CBF372 /* ProfileService.swift in Sources */,
 				845BDB7A2943511200CBF372 /* AppDelegate.swift in Sources */,
-				845BDB7C2943511200CBF372 /* SceneDelegate.swift in Sources */,
+				845BDBD52943537A00CBF372 /* ProfileError.swift in Sources */,
+				845BDBCE2943533F00CBF372 /* BiometricsService.swift in Sources */,
+				845BDBC6294352F900CBF372 /* ProfileProxy.swift in Sources */,
+				845BDBD32943536B00CBF372 /* BankAccount.swift in Sources */,
+				845BDBBD2943526C00CBF372 /* Client.swift in Sources */,
+				845BDBD8294353A700CBF372 /* RawRepresentableExt.swift in Sources */,
+				845BDBB42943520800CBF372 /* Subject.swift in Sources */,
+				845BDBC0294352C900CBF372 /* AccessField.swift in Sources */,
+				845BDBAF2943516C00CBF372 /* ProxyVC.swift in Sources */,
+				845BDBBB2943525A00CBF372 /* Proxy.swift in Sources */,
+				845BDBC92943531400CBF372 /* Keychain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,8 +623,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,9 +631,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Proxy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -471,8 +653,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -480,9 +661,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Proxy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

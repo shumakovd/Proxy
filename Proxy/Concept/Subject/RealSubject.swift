@@ -1,0 +1,19 @@
+//
+//  RealSubject.swift
+//  Proxy
+//
+//  Created by Shumakov Dmytro on 09.12.2022.
+//
+
+import Foundation
+
+/// The RealSubject contains some core business logic. Usually, RealSubjects are
+/// capable of doing some useful work which may also be very slow or sensitive -
+/// e.g. correcting input data. A Proxy can solve these issues without any
+/// changes to the RealSubject's code.
+class RealSubject: Subject {
+
+    func request() {
+        print("RealSubject: Handling request.")
+    }
+}
