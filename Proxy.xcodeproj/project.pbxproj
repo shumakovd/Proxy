@@ -29,6 +29,7 @@
 		845BDBD52943537A00CBF372 /* ProfileError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845BDBD42943537A00CBF372 /* ProfileError.swift */; };
 		845BDBD8294353A700CBF372 /* RawRepresentableExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845BDBD7294353A700CBF372 /* RawRepresentableExt.swift */; };
 		845BDBDA294353B900CBF372 /* LocalizedError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845BDBD9294353B900CBF372 /* LocalizedError.swift */; };
+		845BDBDD2943551400CBF372 /* info.rtfd in Resources */ = {isa = PBXBuildFile; fileRef = 845BDBDC2943551400CBF372 /* info.rtfd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		845BDBD42943537A00CBF372 /* ProfileError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileError.swift; sourceTree = "<group>"; };
 		845BDBD7294353A700CBF372 /* RawRepresentableExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RawRepresentableExt.swift; sourceTree = "<group>"; };
 		845BDBD9294353B900CBF372 /* LocalizedError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedError.swift; sourceTree = "<group>"; };
+		845BDBDC2943551400CBF372 /* info.rtfd */ = {isa = PBXFileReference; lastKnownFileType = wrapper.rtfd; path = info.rtfd; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +133,7 @@
 				845BDBAA2943514300CBF372 /* ViewControllers */,
 				845BDBA92943513B00CBF372 /* Storyboards */,
 				845BDB822943511500CBF372 /* Assets.xcassets */,
+				845BDBDB294354FF00CBF372 /* info */,
 				845BDB872943511500CBF372 /* Info.plist */,
 			);
 			path = Proxy;
@@ -294,6 +297,14 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		845BDBDB294354FF00CBF372 /* info */ = {
+			isa = PBXGroup;
+			children = (
+				845BDBDC2943551400CBF372 /* info.rtfd */,
+			);
+			path = info;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -400,6 +411,7 @@
 			files = (
 				845BDB862943511500CBF372 /* LaunchScreen.storyboard in Resources */,
 				845BDB832943511500CBF372 /* Assets.xcassets in Resources */,
+				845BDBDD2943551400CBF372 /* info.rtfd in Resources */,
 				845BDB812943511200CBF372 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
